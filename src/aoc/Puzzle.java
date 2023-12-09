@@ -44,7 +44,7 @@ public interface Puzzle {
      * @return The path to the test input file.
      */
     static Path getTextInputFilePath(int year, int day) {
-        return Path.of("input", "y" + year, "input_day" + day + "_test.txt");
+        return Path.of("input", "y" + year, "day" + day + "_test.txt");
     }
 
     /**
@@ -55,6 +55,6 @@ public interface Puzzle {
      * @return The path to the input file.
      */
     static Path getInputFilePath(int year, int day) {
-        return Path.of("input", "y" + year, "input_day" + day + ".txt");
+        return Path.of("input", "y" + year, "day" + day + ".txt");
     }
 }

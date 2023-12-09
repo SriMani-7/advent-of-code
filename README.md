@@ -7,6 +7,7 @@ This repository contains Java solutions for the Advent of Code challenges. Each 
 
 - **2023**
     - [Day 1 ⭐⭐](src%2Faoc%2Fy2023%2FDay01.java)
+    - [Day 2 ⭐⭐](src%2Faoc%2Fy2023%2FDay02.java)
 
 ## Input
 
@@ -15,8 +16,8 @@ inputs are the text files located in the
 - root folder
   - input
     - year
-      - input_day$.txt
-      - input_day$_test.txt
+      - day$.txt
+      - day$_test.txt
 
 > Note : input folder is added to gitignore since the inputs are secret and unique for every user.
 
